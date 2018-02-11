@@ -172,7 +172,7 @@ public class mortalKombatScript : MonoBehaviour
 
     //TwitchPlays
 #pragma warning disable 414
-    private string TwitchHelpMessage = "Type '!{0} press' followed by either u/up, d/down, l/left, r/right, a, b or c (e.g. !{0} press up down a b)";
+    private string TwitchHelpMessage = "Type '!{0}' followed by either u/up, d/down, l/left, r/right, a, b or c (e.g. !{0} up down a b)";
 #pragma warning restore 414
 
     public KMSelectable[] ProcessTwitchCommand(string command)
