@@ -541,8 +541,8 @@ public class mortalKombatScript : MonoBehaviour
             else if (opponentName == "Kano")
             {
                 attack1 = squareWavePunch;
-                attack2 = legGrab;
-                attack3 = energyRings;
+                attack2 = energyRings;
+                attack3 = legGrab;
                 attack1Name = squareWavePunchName;
                 attack2Name = legGrabName;
                 attack3Name = energyRingsName;
